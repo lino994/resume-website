@@ -1,5 +1,7 @@
 /*FONT IMPORTS*/
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 @font-face{
 	font-family:RubikRegular;
 	src: url(fonts/Rubik-Regular.ttf);
@@ -24,18 +26,38 @@ body{
 	min-height:80px;
 	width:100%;
 	padding-top:15px;
-	background-color:grey;
-	color:white;
+	background-color:#F47A20;
+	border:0;
+}
+#site_link{
+	font-family:RubikRegular;
+	color:#634632;
 }
 
+#site_link:hover{
+	color:#FFF0C3;
+}
 #nav_name{
-	color:white;
+	color:#634632;
 	font-family:OcrAStd;
 }
 .navbar-header{
 	padding-left:13.127%;
 }
+#nav-button{
+	border:none;
+}
 
+#nav-button:hover{
+	background-color:#634632;
+}
+.anchor{
+	display:block;
+	min-height:80px;
+	margin-top:-80px;
+	visibility: hidden;
+}
+/*about me*/
 #about_me{
 	padding-top:35px;
 	background-color:#FFF0C3;
@@ -43,10 +65,7 @@ body{
 	padding-left:13.127%;
 }
 
-#resume{
-	background-color:#79C0AA;
-	padding-left:13.127%;
-}
+
 
 .sub_text{
 	font-family:'AvenirRoman';
@@ -69,8 +88,96 @@ body{
 	border-radius:50%;
 }
 
+/*resume */
+#resume{
+	background-color:#79C0AA;
+	padding-left:13.127%;
+}
+
 h1{
 	font-family:'OcrAStd';
 	font-size: 30px;
 	color: #634632;
+}
+#education-article{
+	font-family:'RubikRegular';
+	line-height:98%;	
+	padding-bottom:20px;
+}
+
+#resume-header{
+	line-height:normal;
+	font-family:Courier;
+	font-weight:550;
+	font-size: 25px;
+	color: #634632;
+}
+
+#resume-sub-header{
+	font-size: 18px;
+	color: #FFF0C3;
+}
+
+#resume-sub-text{
+	font-size: 18px;
+	color: #FFF8E4;
+	line-height:90%;
+
+}
+
+#resume-course{
+	font-size: 18px;
+	line-height:95%;
+	color: #FFF0C3;
+}
+
+/*Projects*/
+#projects{
+	background-color:#EFAA1F;
+	padding-left:13.127%;
+}
+h2{
+	font-family:'OcrAStd';
+	font-size: 30px;
+	padding-bottom:10px;
+	color: #634632;
+}
+
+#img-row{
+	text-align:center;
+	padding-bottom:10px;
+}
+
+#project-sub-text{
+	font-family:'OcrAStd';
+	font-size: 20px;
+	color: #634632;
+}
+
+.img-link:hover > #img-div{
+    background-color:#BF8818;
+    opacity:0.3;
+    border-radius:10px;
+}
+
+/*contact*/
+
+#contact{
+	background-color:#F47A20;
+	padding-left:13.127%;
+	padding-bottom:50px;
+}
+
+h3{
+	font-family:'OcrAStd';
+	font-size: 30px;
+	padding-bottom:10px;
+	color: #634632;
+}
+
+.contact_info{
+	line-height:95%;
+	font-family:'OcrAStd';
+	font-size: 20px;
+	color: #FFF0C3;
 }

@@ -29,7 +29,7 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top bg-faded">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-menu">
+					<button type="button"  id="nav-button" class="navbar-toggle" data-toggle="collapse" data-target="#header-menu">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -38,17 +38,19 @@
 				</div> <!--- navbar-header ender --->
 				
 				<div class="collapse navbar-collapse" id="header-menu">
-					<ul class="nav navbar-nav navbar-right">
-
-						<li><a href="#">About Me</a></li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Contact</a></li>
+					<ul id="site_link" class="nav navbar-nav navbar-right">
+						<li><a id="site_link" href="#aboutme_section">About Me</a></li>
+						<li><a id="site_link" href="#resume_section">Resume</a></li>
+						<li><a id="site_link" href="#projects_section">Projects</a></li>
+						<li><a id="site_link"href="#contact_section">Contact</a></li>
 					</ul>
 				</div> <!--- navbar-collapse end --->		
 			</div><!---- container fluid end ---->
 		</nav> <!---- navbar end ----->
-
+		
+		
+	<!---About Me Start--->
+	<span class="anchor" id="aboutme_section"></span>
     <div class="container-fluid" id="about_me">
 		<div class="row">
 			<!----  <div class="col-md-4">
@@ -62,19 +64,136 @@
 
 		</div>
 	</div>
-
+	<!----About Me End--->
 	
+	
+	<!--Resume Start--->
+	<span class="anchor" id="resume_section"></span>
 	<div class="container-fluid" id="resume">
-		<h1>>&#8239;Resume</h1>
-		<article>
-		<p id="resume-header">Education</p>
-		<p id="resume-sub-header">University of Texas at San Antonio</p>
+		
+		<h1>Resume</h1>
+		<!---<h1>>&#8239;&#8239;Resume</h1>-->
+		<article id="education-article">
+			<p id="resume-header">>&#8239;&#8239;Education</p>
+			<p id="resume-sub-header">University of Texas at San Antonio</p>
+			<p id="resume-sub-text">B.S. Computer Science<br>Concentration in Software Engineering</p>
 		</article>
-		<p id="resume-sub-text">B.S. Computer Science<br>Concentration in Software Engineering</p>
-		<p id="resume-header">Relevant Coursework</p>
-		<p id="resume-sub-header">Programming Languages</p>
+		
+		<article id="education-article">
+		<p id="resume-header">> Relevant Coursework</p>
+			<div class="row">
+				<div class="col-md-4">
+					<p id="resume-course">&#8226; Advanced Software Engineering</p>
+					<p id="resume-course">&#8226; Enterprise Software Engineering</p>
+					<p id="resume-course">&#8226; Software Validation</p>
+				</div>
+				<div class="col-md-4">
+					<p id="resume-course">&#8226; Object-Oriented Programming</p>
+					<p id="resume-course">&#8226; Systems Programming</p>
+					<p id="resume-course">&#8226; Programming Languages</p>
+				</div>
+			</div>
+		</article>
+		
+		<article id="education-article">
+		<p id="resume-header">> Skills</p>
+			<div class="row">
+				<div class="col-md-4">
+					<p id="resume-course">Programming Languages</p>
+						<p id="resume-sub-text">Java</p>
+						<p id="resume-sub-text">C#</p>
+						<p id="resume-sub-text">Python</p>
+						<p id="resume-sub-text">HTML/CSS</p>
+						<p id="resume-sub-text">PHP MySQL</p>
+						<br>
+					<p id="resume-course">Professional</p>
+						<p id="resume-sub-text">Self-Motivated</p>
+						<p id="resume-sub-text">Detail Oriented</p>
+						<p id="resume-sub-text">Love for Problem Solving</p>
+						<p id="resume-sub-text">Creative Thinker</p>
+						<p id="resume-sub-text">Team Player</p>
+						<br>
+					<p id="resume-course">Languages</p>
+						<p id="resume-sub-text">Fluent English</p>
+						<p id="resume-sub-text">Fluent Spanish</p>
+						<br>
+				</div>
+				
+				<div class="col-md-4">
+					<p id="resume-course">Software/IDE Tools</p>
+						<p id="resume-sub-text">Eclispe</p>
+						<p id="resume-sub-text">phpMyAdmin</p>
+						<p id="resume-sub-text">Android Studio</p>
+						<p id="resume-sub-text">VIM</p>
+						<p id="resume-sub-text">Notepad++</p>
+						<p id="resume-sub-text">Adobe Photoshop</p>
+						<p id="resume-sub-text">Adobe Illustrator</p>
+						<p id="resume-sub-text">Microsoft Office</p>
+						<br>
+					<p id="resume-course">Operating Systems</p>
+						<p id="resume-sub-text">Microsoft Windows</p>
+						<p id="resume-sub-text">Mac OSX</p>
+						<p id="resume-sub-text">Linux Ubuntu</p>
+						<br>
+				</div>
+			</div>
+			
+			<a href="downloads/LinoPerez_Resume_Nov2017.pdf" id="resume_download"> Download PDF of Resume</a>
+		</article>
+		
 	</div>
+	<!--Resume End-->
 	
+	<!--Projects Start--->
+	<span class="anchor" id="projects_section"></span>
+	<div class="container-fluid" id="projects">
+		<h2>Projects</h2>
+		<div class="row" id="img-row">
+			<a class="img-link" href="https://github.com/dwells1/SpotifyJukespot#spotifyjukespot">
+				<div id="img-div" class="col-lg-5 col-md-5 col-sm-3 col-xs-6">
+					<img src=https://ironskullet.files.wordpress.com/2018/02/skeletor-synth-final-small.jpg?w=960 class="img-responsive img-rounded">
+					<br>
+					<p id="project-sub-text">> Spotify Jukebox</p>
+				</div>
+			</a>
+			
+			<a class="img-link" href="https://github.com/lino994/cs3773-android-secure-messaging-app#cs3773-android-secure-messaging-app">
+				<div id="img-div" class="col-lg-5 col-md-5 col-sm-3 col-xs-6">
+					<img src=https://ironskullet.files.wordpress.com/2018/02/skeletor-synth-final-small.jpg?w=960 class="img-responsive img-rounded">
+					<br>
+					<p id="project-sub-text">> Android Secure Messaging</p>
+				</div>
+			</a>
+		</div>
+		<div class="row" id="img-row">
+			
+			<a class="img-link" href="https://github.com/lino994/cs4743-enterprise-library-software#library-inventory-software">
+				<div id="img-div" class="col-lg-5 col-md-5 col-sm-3 col-xs-6">
+					<img src=https://ironskullet.files.wordpress.com/2018/02/skeletor-synth-final-small.jpg?w=960 class="img-responsive img-rounded">
+					<br>
+					<p id="project-sub-text">> Library Iventory Managment</p>
+				</div>
+			</a>
+			<!---
+			<a class="img-link" href="#">
+				<div id="img-div" class="col-lg-5 col-md-5 col-sm-3 col-xs-6">
+					<img src=https://ironskullet.files.wordpress.com/2018/02/skeletor-synth-final-small.jpg?w=960 class="img-responsive img-rounded">
+					<br>
+					<p id="project-sub-text">> Project 4</p>
+				</div>
+			</a>-->
+		</div>
+    </div>
+	
+	
+	<span class="anchor" id="contact_section"></span>
+	<div class="container-fluid" id="contact">
+		<h3>Contact Me</h3>
+		<p class="contact_info">> Phone: 956 237 3892</p>
+		<p class="contact_info">> Email: linosperez@gmail.com</p>
+		
+	</div>
+	<!---Project end--->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
