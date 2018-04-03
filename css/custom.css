@@ -1,0 +1,76 @@
+/*FONT IMPORTS*/
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@font-face{
+	font-family:RubikRegular;
+	src: url(fonts/Rubik-Regular.ttf);
+}
+
+@font-face{
+	font-family:OcrAStd;
+	src: url(fonts/OCRAStd.otf);
+}
+
+@font-face{
+	font-family:AvenirRoman;
+	src:url(fonts/Avenir.ttc);
+}
+
+/*site css*/
+body{
+	padding-top:80px;
+}
+
+.navbar{
+	min-height:80px;
+	width:100%;
+	padding-top:15px;
+	background-color:grey;
+	color:white;
+}
+
+#nav_name{
+	color:white;
+	font-family:OcrAStd;
+}
+.navbar-header{
+	padding-left:13.127%;
+}
+
+#about_me{
+	padding-top:35px;
+	background-color:#FFF0C3;
+	height:15%;
+	padding-left:13.127%;
+}
+
+#resume{
+	background-color:#79C0AA;
+	padding-left:13.127%;
+}
+
+.sub_text{
+	font-family:'AvenirRoman';
+	font-size: 15px;
+	font-weight:bold;
+	color: #634632;
+}
+
+
+.intro_sentence{
+	font-family:'OcrAStd';
+	font-size: 30px;
+	color: #634632;
+}
+
+#head_img{
+	/**display:block; **/
+	margin:auto;
+	border: 2px solid #634632;
+	border-radius:50%;
+}
+
+h1{
+	font-family:'OcrAStd';
+	font-size: 30px;
+	color: #634632;
+}
