@@ -103,6 +103,7 @@ h1{
 	font-family:'OcrAStd', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 30px;
 	color: #634632;
+	margin-left:2%;
 	float:left;
 }
 
@@ -152,6 +153,7 @@ h2{
 	font-family:'OcrAStd', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 30px;
 	padding-bottom:10px;
+	margin-left:2%;
 	float:left;
 	color: #634632;
 }
