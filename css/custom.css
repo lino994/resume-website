@@ -132,8 +132,14 @@ h1:hover{
 #resume-sub-text{
 	font-size: 18px;
 	color: #FFF8E4;
-	line-height:90%;
+	line-height:95%;
 
+}
+
+#resume-work-xp-desc{
+	font-size: 15px;
+	line-height:115%;
+	color: #FFF8E4; 
 }
 
 #resume-course{
